@@ -102,6 +102,7 @@
             this.btnRegistrarVisita.TabIndex = 5;
             this.btnRegistrarVisita.Text = "Registrar";
             this.btnRegistrarVisita.UseVisualStyleBackColor = false;
+            this.btnRegistrarVisita.Click += new System.EventHandler(this.btnRegistrarVisita_Click);
             // 
             // ltbMensaje
             // 

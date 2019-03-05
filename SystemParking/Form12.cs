@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SystemParking
 {
-    public partial class frmListaVisitas : Form
+    public partial class frmListaAlumnos : Form
     {
-        public frmListaVisitas()
+        public frmListaAlumnos()
         {
             InitializeComponent();
-        }
-
-        private void dgvVisitar_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            dgvVisitas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
         }
     }
 }

@@ -51,6 +51,7 @@
             this.txtCodigo.Size = new System.Drawing.Size(299, 36);
             this.txtCodigo.TabIndex = 3;
             this.txtCodigo.Text = "Codigo";
+            this.txtCodigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodigo_KeyPress);
             // 
             // label2
             // 

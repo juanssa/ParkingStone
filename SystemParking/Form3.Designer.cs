@@ -30,17 +30,19 @@
         {
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.lblIngreso = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblEntrada = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtCodigo
             // 
+            this.txtCodigo.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.txtCodigo.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCodigo.Location = new System.Drawing.Point(239, 152);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(299, 36);
             this.txtCodigo.TabIndex = 0;
             this.txtCodigo.Text = "Codigo";
+            this.txtCodigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodigo_KeyPress);
             // 
             // lblIngreso
             // 
@@ -52,23 +54,23 @@
             this.lblIngreso.Text = "Escanea el Codigo de tu Credencial Para Obtener Acceso";
             this.lblIngreso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // lblEntrada
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.LimeGreen;
-            this.label2.Location = new System.Drawing.Point(173, 249);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(421, 103);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "400 Espacios";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEntrada.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lblEntrada.Location = new System.Drawing.Point(173, 249);
+            this.lblEntrada.Name = "lblEntrada";
+            this.lblEntrada.Size = new System.Drawing.Size(421, 103);
+            this.lblEntrada.TabIndex = 2;
+            this.lblEntrada.Text = "400 Espacios";
+            this.lblEntrada.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmIngreso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblEntrada);
             this.Controls.Add(this.lblIngreso);
             this.Controls.Add(this.txtCodigo);
             this.Name = "frmIngreso";
@@ -80,9 +82,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Label lblIngreso;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblEntrada;
+        public System.Windows.Forms.TextBox txtCodigo;
     }
 }

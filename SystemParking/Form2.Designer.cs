@@ -34,6 +34,8 @@
             this.sTUDENTSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dARACCESOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dARACCESSOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sALIDAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lISTAESTUDIANTEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vISITORSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dARACCESOToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lISTARVISITARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,8 +44,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblSesion = new System.Windows.Forms.Label();
             this.ptbCerrarSession = new System.Windows.Forms.PictureBox();
-            this.sALIDAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lISTAESTUDIANTEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbCerrarSession)).BeginInit();
             this.SuspendLayout();
@@ -95,6 +95,20 @@
             this.dARACCESSOToolStripMenuItem.Text = "DAR ACCESSO";
             this.dARACCESSOToolStripMenuItem.Click += new System.EventHandler(this.dARACCESSOToolStripMenuItem_Click);
             // 
+            // sALIDAToolStripMenuItem
+            // 
+            this.sALIDAToolStripMenuItem.Name = "sALIDAToolStripMenuItem";
+            this.sALIDAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sALIDAToolStripMenuItem.Text = "SALIDA";
+            this.sALIDAToolStripMenuItem.Click += new System.EventHandler(this.sALIDAToolStripMenuItem_Click);
+            // 
+            // lISTAESTUDIANTEToolStripMenuItem
+            // 
+            this.lISTAESTUDIANTEToolStripMenuItem.Name = "lISTAESTUDIANTEToolStripMenuItem";
+            this.lISTAESTUDIANTEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lISTAESTUDIANTEToolStripMenuItem.Text = "LISTA ESTUDIANTE";
+            this.lISTAESTUDIANTEToolStripMenuItem.Click += new System.EventHandler(this.lISTAESTUDIANTEToolStripMenuItem_Click);
+            // 
             // vISITORSToolStripMenuItem
             // 
             this.vISITORSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -107,14 +121,14 @@
             // dARACCESOToolStripMenuItem1
             // 
             this.dARACCESOToolStripMenuItem1.Name = "dARACCESOToolStripMenuItem1";
-            this.dARACCESOToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.dARACCESOToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.dARACCESOToolStripMenuItem1.Text = "DAR ACCESO";
             this.dARACCESOToolStripMenuItem1.Click += new System.EventHandler(this.dARACCESOToolStripMenuItem1_Click);
             // 
             // lISTARVISITARToolStripMenuItem
             // 
             this.lISTARVISITARToolStripMenuItem.Name = "lISTARVISITARToolStripMenuItem";
-            this.lISTARVISITARToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lISTARVISITARToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.lISTARVISITARToolStripMenuItem.Text = "LISTAR VISITAS";
             this.lISTARVISITARToolStripMenuItem.Click += new System.EventHandler(this.lISTARVISITARToolStripMenuItem_Click);
             // 
@@ -163,19 +177,6 @@
             this.ptbCerrarSession.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptbCerrarSession.TabIndex = 3;
             this.ptbCerrarSession.TabStop = false;
-            // 
-            // sALIDAToolStripMenuItem
-            // 
-            this.sALIDAToolStripMenuItem.Name = "sALIDAToolStripMenuItem";
-            this.sALIDAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sALIDAToolStripMenuItem.Text = "SALIDA";
-            this.sALIDAToolStripMenuItem.Click += new System.EventHandler(this.sALIDAToolStripMenuItem_Click);
-            // 
-            // lISTAESTUDIANTEToolStripMenuItem
-            // 
-            this.lISTAESTUDIANTEToolStripMenuItem.Name = "lISTAESTUDIANTEToolStripMenuItem";
-            this.lISTAESTUDIANTEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.lISTAESTUDIANTEToolStripMenuItem.Text = "LISTA ESTUDIANTE";
             // 
             // frmInicio
             // 

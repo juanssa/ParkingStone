@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace SystemParking
 {
@@ -44,6 +45,18 @@ namespace SystemParking
         {
             frmListaVisitas objetoListaVisitas = new frmListaVisitas();
             objetoListaVisitas.Show();
+
+
+            BDConect objeto = new BDConect();
+            MySqlConnection conexion = objeto.Conexion();
+
+            MySqlDataAdapter dgv = new MySqlDataAdapter("Select * from VISITANTE", conexion);
+            DataSet ds = new DataSet();
+            dgv.Fill(ds);
+
+            objetoListaVisitas.dgvVisitas.DataSource = ds.Tables[0];
+
+            conexion.Close();
         }
 
 
@@ -75,6 +88,23 @@ namespace SystemParking
         {
             frmSalida objetoSalida = new frmSalida();
             objetoSalida.Show();
+        }
+
+        private void lISTAESTUDIANTEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListaAlumnos objetoListaAlumnos = new frmListaAlumnos();
+            objetoListaAlumnos.Show();
+
+            BDConect objeto = new BDConect();
+            MySqlConnection conexion = objeto.Conexion();
+
+            MySqlDataAdapter dgv = new MySqlDataAdapter("Select * from entrada order by hora desc", conexion);
+            DataSet ds = new DataSet();
+            dgv.Fill(ds);
+
+            objetoListaAlumnos.dgvEstudiante.DataSource = ds.Tables[0];
+
+            conexion.Close();
         }
     }
 }

@@ -1,7 +1,6 @@
 C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\bin\Debug\SystemParking.exe.config
 C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\bin\Debug\SystemParking.exe
 C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\bin\Debug\SystemParking.pdb
-C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\obj\Debug\SystemParking.csprojAssemblyReference.cache
 C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\obj\Debug\SystemParking.Properties.Resources.resources
 C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\obj\Debug\SystemParking.csproj.GenerateResource.cache
 C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\obj\Debug\SystemParking.csproj.CoreCompileInputs.cache
@@ -22,3 +21,5 @@ C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\Syst
 C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\obj\Debug\SystemParking.frmAddEmpleado.resources
 C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\obj\Debug\SystemParking.frmListaEmpleados.resources
 C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\obj\Debug\SystemParking.frmSalida.resources
+C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\obj\Debug\SystemParking.frmListaAlumnos.resources
+C:\Users\Lenovo\Documents\Visual Studio 2017\VisualC#Proyects\SystemParking\SystemParking\obj\Debug\SystemParking.csprojAssemblyReference.cache

@@ -66,7 +66,20 @@ namespace SystemParking
             frmListaVisitas objetoListaVisitas = new frmListaVisitas();
             objetoListaVisitas.Show();
 
-            
+            BDConect objeto = new BDConect();
+            MySqlConnection conexion = objeto.Conexion();
+
+            MySqlDataAdapter dgv = new MySqlDataAdapter("Select * from VISITANTE", conexion);
+            DataSet ds = new DataSet();
+            dgv.Fill(ds);
+
+            objetoListaVisitas.dgvVisitas.DataSource = ds.Tables[0];
+
+
+
+            conexion.Close();
+
+
         }
 
         private void eSTADISTICAToolStripMenuItem_Click(object sender, EventArgs e)

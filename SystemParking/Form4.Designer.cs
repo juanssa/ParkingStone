@@ -66,6 +66,7 @@
             this.cmbIdentificacionAcceso.Name = "cmbIdentificacionAcceso";
             this.cmbIdentificacionAcceso.Size = new System.Drawing.Size(327, 36);
             this.cmbIdentificacionAcceso.TabIndex = 2;
+            this.cmbIdentificacionAcceso.Text = "Identificacion";
             // 
             // btnAcessoEstudiante
             // 
@@ -78,6 +79,7 @@
             this.btnAcessoEstudiante.TabIndex = 3;
             this.btnAcessoEstudiante.Text = "REGISTRAR";
             this.btnAcessoEstudiante.UseVisualStyleBackColor = false;
+            this.btnAcessoEstudiante.Click += new System.EventHandler(this.btnAcessoEstudiante_Click);
             // 
             // frmAccesoEstudiante
             // 
