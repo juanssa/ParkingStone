@@ -30,145 +30,97 @@
         {
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            this.chartEstadistica = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.dtpFechaInicio = new System.Windows.Forms.DateTimePicker();
-            this.dtpFechaFin = new System.Windows.Forms.DateTimePicker();
-            this.grbFechas = new System.Windows.Forms.GroupBox();
-            this.grbHora = new System.Windows.Forms.GroupBox();
-            this.dtpHoraFin = new System.Windows.Forms.DateTimePicker();
-            this.dtpHoraInicio = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.chartEstadistica)).BeginInit();
-            this.grbFechas.SuspendLayout();
-            this.grbHora.SuspendLayout();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            this.labelInicio = new System.Windows.Forms.Label();
+            this.labelSemana = new System.Windows.Forms.Label();
+            this.labelDia = new System.Windows.Forms.Label();
+            this.graficoSemanal = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.graficoDia = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            ((System.ComponentModel.ISupportInitialize)(this.graficoSemanal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.graficoDia)).BeginInit();
             this.SuspendLayout();
             // 
-            // chartEstadistica
+            // labelInicio
+            // 
+            this.labelInicio.AutoSize = true;
+            this.labelInicio.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInicio.Location = new System.Drawing.Point(6, 9);
+            this.labelInicio.Name = "labelInicio";
+            this.labelInicio.Size = new System.Drawing.Size(890, 32);
+            this.labelInicio.TabIndex = 2;
+            this.labelInicio.Text = "Se muestra los graficos de la ultima semana y del dia pico apartir de hoy: ";
+            // 
+            // labelSemana
+            // 
+            this.labelSemana.AutoSize = true;
+            this.labelSemana.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSemana.Location = new System.Drawing.Point(12, 142);
+            this.labelSemana.Name = "labelSemana";
+            this.labelSemana.Size = new System.Drawing.Size(106, 26);
+            this.labelSemana.TabIndex = 3;
+            this.labelSemana.Text = "Semana: ";
+            // 
+            // labelDia
+            // 
+            this.labelDia.AutoSize = true;
+            this.labelDia.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDia.Location = new System.Drawing.Point(650, 142);
+            this.labelDia.Name = "labelDia";
+            this.labelDia.Size = new System.Drawing.Size(62, 26);
+            this.labelDia.TabIndex = 4;
+            this.labelDia.Text = "Dia: ";
+            // 
+            // graficoSemanal
             // 
             chartArea1.Name = "ChartArea1";
-            this.chartEstadistica.ChartAreas.Add(chartArea1);
+            this.graficoSemanal.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
-            this.chartEstadistica.Legends.Add(legend1);
-            this.chartEstadistica.Location = new System.Drawing.Point(2, 138);
-            this.chartEstadistica.Name = "chartEstadistica";
-            this.chartEstadistica.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Dias";
-            this.chartEstadistica.Series.Add(series1);
-            this.chartEstadistica.Size = new System.Drawing.Size(776, 300);
-            this.chartEstadistica.TabIndex = 0;
-            this.chartEstadistica.Text = "chart1";
-            title1.Name = "dias";
-            title1.Text = "Dias";
-            title2.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Left;
-            title2.Name = "horas";
-            title2.Text = "horas";
-            this.chartEstadistica.Titles.Add(title1);
-            this.chartEstadistica.Titles.Add(title2);
+            this.graficoSemanal.Legends.Add(legend1);
+            this.graficoSemanal.Location = new System.Drawing.Point(12, 171);
+            this.graficoSemanal.Name = "graficoSemanal";
+            this.graficoSemanal.Size = new System.Drawing.Size(637, 570);
+            this.graficoSemanal.TabIndex = 5;
+            this.graficoSemanal.Text = "chart1";
             // 
-            // dtpFechaInicio
+            // graficoDia
             // 
-            this.dtpFechaInicio.CustomFormat = "hh:mm:ss";
-            this.dtpFechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaInicio.Location = new System.Drawing.Point(16, 51);
-            this.dtpFechaInicio.Name = "dtpFechaInicio";
-            this.dtpFechaInicio.Size = new System.Drawing.Size(96, 20);
-            this.dtpFechaInicio.TabIndex = 1;
-            // 
-            // dtpFechaFin
-            // 
-            this.dtpFechaFin.CustomFormat = "hh:mm:ss";
-            this.dtpFechaFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaFin.Location = new System.Drawing.Point(139, 51);
-            this.dtpFechaFin.Name = "dtpFechaFin";
-            this.dtpFechaFin.Size = new System.Drawing.Size(96, 20);
-            this.dtpFechaFin.TabIndex = 2;
-            // 
-            // grbFechas
-            // 
-            this.grbFechas.Controls.Add(this.dtpFechaFin);
-            this.grbFechas.Controls.Add(this.dtpFechaInicio);
-            this.grbFechas.Location = new System.Drawing.Point(31, 48);
-            this.grbFechas.Name = "grbFechas";
-            this.grbFechas.Size = new System.Drawing.Size(252, 84);
-            this.grbFechas.TabIndex = 3;
-            this.grbFechas.TabStop = false;
-            this.grbFechas.Text = "Fechas";
-            // 
-            // grbHora
-            // 
-            this.grbHora.Controls.Add(this.dtpHoraFin);
-            this.grbHora.Controls.Add(this.dtpHoraInicio);
-            this.grbHora.Location = new System.Drawing.Point(289, 48);
-            this.grbHora.Name = "grbHora";
-            this.grbHora.Size = new System.Drawing.Size(252, 84);
-            this.grbHora.TabIndex = 4;
-            this.grbHora.TabStop = false;
-            this.grbHora.Text = "Horas";
-            // 
-            // dtpHoraFin
-            // 
-            this.dtpHoraFin.CustomFormat = "hh:mm:ss";
-            this.dtpHoraFin.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dtpHoraFin.Location = new System.Drawing.Point(139, 51);
-            this.dtpHoraFin.Name = "dtpHoraFin";
-            this.dtpHoraFin.Size = new System.Drawing.Size(96, 20);
-            this.dtpHoraFin.TabIndex = 2;
-            // 
-            // dtpHoraInicio
-            // 
-            this.dtpHoraInicio.CustomFormat = "hh:mm:ss";
-            this.dtpHoraInicio.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dtpHoraInicio.Location = new System.Drawing.Point(16, 51);
-            this.dtpHoraInicio.Name = "dtpHoraInicio";
-            this.dtpHoraInicio.Size = new System.Drawing.Size(96, 20);
-            this.dtpHoraInicio.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(582, 99);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 33);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Consultar";
-            this.button1.UseVisualStyleBackColor = false;
+            chartArea2.Name = "ChartArea1";
+            this.graficoDia.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.graficoDia.Legends.Add(legend2);
+            this.graficoDia.Location = new System.Drawing.Point(655, 171);
+            this.graficoDia.Name = "graficoDia";
+            this.graficoDia.Size = new System.Drawing.Size(715, 570);
+            this.graficoDia.TabIndex = 6;
+            this.graficoDia.Text = "chart1";
             // 
             // frmEstadisticas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.grbHora);
-            this.Controls.Add(this.grbFechas);
-            this.Controls.Add(this.chartEstadistica);
+            this.ClientSize = new System.Drawing.Size(1382, 753);
+            this.Controls.Add(this.graficoDia);
+            this.Controls.Add(this.graficoSemanal);
+            this.Controls.Add(this.labelDia);
+            this.Controls.Add(this.labelSemana);
+            this.Controls.Add(this.labelInicio);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmEstadisticas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estadisticas";
-            ((System.ComponentModel.ISupportInitialize)(this.chartEstadistica)).EndInit();
-            this.grbFechas.ResumeLayout(false);
-            this.grbHora.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.graficoSemanal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.graficoDia)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataVisualization.Charting.Chart chartEstadistica;
-        private System.Windows.Forms.DateTimePicker dtpFechaInicio;
-        private System.Windows.Forms.DateTimePicker dtpFechaFin;
-        private System.Windows.Forms.GroupBox grbFechas;
-        private System.Windows.Forms.GroupBox grbHora;
-        private System.Windows.Forms.DateTimePicker dtpHoraFin;
-        private System.Windows.Forms.DateTimePicker dtpHoraInicio;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label labelInicio;
+        private System.Windows.Forms.Label labelSemana;
+        private System.Windows.Forms.Label labelDia;
+        private System.Windows.Forms.DataVisualization.Charting.Chart graficoSemanal;
+        private System.Windows.Forms.DataVisualization.Charting.Chart graficoDia;
     }
 }
