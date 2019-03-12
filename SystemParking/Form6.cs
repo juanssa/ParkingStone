@@ -21,5 +21,25 @@ namespace SystemParking
         {
             dgvVisitas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
         }
+
+        private void txtBuscar_Visita_Enter(object sender, EventArgs e)
+        {
+            if (txtBuscar_Visita.Text == "BUSCAR VISITANTE")
+            {
+                txtBuscar_Visita.Text = "";
+
+                txtBuscar_Visita.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtBuscar_Visita_Leave(object sender, EventArgs e)
+        {
+            if (txtBuscar_Visita.Text == "")
+            {
+                txtBuscar_Visita.Text = "BUSCAR VISITANTE";
+
+                txtBuscar_Visita.ForeColor = Color.Silver;
+            }
+        }
     }
 }

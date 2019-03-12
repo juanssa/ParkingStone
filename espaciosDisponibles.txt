@@ -1,0 +1,57 @@
+select (400-count(*)) from entrada where status = 1;
+
+select (400-count(*)) from entrada where status = 0;
+
+select (400-count(*)) from salida where status = 1;
+
+select (400-count(*)) from salida where status = 0;
+
+DELIMITER //
+
+CREATE TRIGGER ESPACIOS_DISPONIBLES
+AFTER INSERT ON ENTRADA
+FOR EACH ROW 
+BEGIN
+
+DECLARE CONT_E INT;
+DECLARE CONT_S INT;
+DECLARE ESPLIB INT;
+DECLARE TOTAL INT;
+
+
+SET CONT_E = (SELECT COUNT(*) FROM ENTRADA WHERE STATUS = 1);
+SET CONT_S = (SELECT COUNT(*) FROM SALIDA WHERE STATUS = 1);
+
+SET ESPLIB = 400;
+SET TOTAL;
+
+IF(CONT_E > 0 AND CONT_E < 400) THEN
+	TOTAL = ESPLIB - CONT_E;
+	INSERT INTO ESPACIOS VALUES (NEW.TOTAL);
+	SELECT TOTAL FROM ESPACIOS
+	ORDER BY ID DESC
+	LIMIT 1;
+END IF;
+
+IF(CONT_S > 1 AND CONT_E < 400) THEN
+	TOTAL = ESPLIB - CONT_S; 
+END IF;
+
+END;
+
+
+
+
+escanea el codigo entrada
+
+activa status a 1
+
+muestra espacios disp 400 - 1
+
+---------------------------------
+
+escanea el codigo salida
+
+activa status 1
+
+muestra espacios disp 400 + 1

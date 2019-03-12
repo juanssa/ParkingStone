@@ -42,6 +42,7 @@
             this.txtCodigo.Size = new System.Drawing.Size(299, 36);
             this.txtCodigo.TabIndex = 0;
             this.txtCodigo.Text = "Codigo";
+            this.txtCodigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtCodigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodigo_KeyPress);
             // 
             // lblIngreso
@@ -58,9 +59,9 @@
             // 
             this.lblEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEntrada.ForeColor = System.Drawing.Color.LimeGreen;
-            this.lblEntrada.Location = new System.Drawing.Point(173, 249);
+            this.lblEntrada.Location = new System.Drawing.Point(12, 311);
             this.lblEntrada.Name = "lblEntrada";
-            this.lblEntrada.Size = new System.Drawing.Size(421, 103);
+            this.lblEntrada.Size = new System.Drawing.Size(776, 103);
             this.lblEntrada.TabIndex = 2;
             this.lblEntrada.Text = "400 Espacios";
             this.lblEntrada.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

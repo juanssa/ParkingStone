@@ -25,8 +25,6 @@ namespace SystemParking
             if (e.KeyChar == (char)13)
             {
 
-
-                //hacer consulta
                 /// Se inicializa el objeto dentro del Boton de Entrar
                 BDConect objeto = new BDConect();
                 MySqlConnection conexion = objeto.Conexion();
@@ -38,30 +36,34 @@ namespace SystemParking
                 var hora = DateTime.Now.ToString("hh:mm:ss");
                 string fecha_actual = Hoy.ToString("dd-MM-yyyy");
 
-                consulta.CommandText = ("INSERT INTO ENTRADA ( codigo, fecha, hora) VALUES ('" + txtCodigo.Text + "', '" + fecha_actual + "', '" + hora + "');");
 
-
-               
-
+                /// Hacer Consulta para insertar los datos a la tabla de entrada
+                /// 
+                consulta.CommandText = ("INSERT INTO ENTRADA ( codigo, fecha, hora, status) VALUES ('" + txtCodigo.Text + "', '" + fecha_actual + "', '" + hora + "','1');");
+                
+                /// Si la consulta se ejecuta correctamente, se inserta el dato.
+                /// 
                 if (consulta.ExecuteNonQuery() == 1)
                 {
+
+                    txtCodigo.Clear(); /// Limpia lo que existe en el componente
+                    txtCodigo.Focus(); /// Mantiene el Foco del cursos en el componente                   
                     
-                        txtCodigo.Clear();
-                        txtCodigo.Focus();
-
-                    lblEntrada.Text = "Acceso";
-                    System.Threading.Thread.Sleep(1000);
-                    lblEntrada.Text = "Espacios disponibles";
-
-
-
                 }
                 else
                 {
                     MessageBox.Show("Dato No insertado");
                 }
 
-               
+                string query = ("SELECT (400 - COUNT(*)) AS ESPACIOS FROM ENTRADA WHERE STATUS = 1;");
+                MySqlCommand mycomand = new MySqlCommand(query, conexion);
+                MySqlDataReader espacios = mycomand.ExecuteReader();
+
+                if (espacios.Read())
+                {
+                    lblEntrada.Text = espacios["ESPACIOS"].ToString() + " DISPONIBLES";
+                }
+
                 conexion.Close();
                 
             }

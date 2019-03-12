@@ -47,15 +47,19 @@
             // txtCodigoAcceso
             // 
             this.txtCodigoAcceso.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigoAcceso.ForeColor = System.Drawing.Color.Silver;
             this.txtCodigoAcceso.Location = new System.Drawing.Point(17, 93);
             this.txtCodigoAcceso.Name = "txtCodigoAcceso";
             this.txtCodigoAcceso.Size = new System.Drawing.Size(327, 36);
             this.txtCodigoAcceso.TabIndex = 1;
-            this.txtCodigoAcceso.Text = "Codigo";
+            this.txtCodigoAcceso.Text = "CODIGO";
+            this.txtCodigoAcceso.Enter += new System.EventHandler(this.txtCodigoAcceso_Enter);
+            this.txtCodigoAcceso.Leave += new System.EventHandler(this.txtCodigoAcceso_Leave);
             // 
             // cmbIdentificacionAcceso
             // 
             this.cmbIdentificacionAcceso.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbIdentificacionAcceso.ForeColor = System.Drawing.Color.Silver;
             this.cmbIdentificacionAcceso.FormattingEnabled = true;
             this.cmbIdentificacionAcceso.Items.AddRange(new object[] {
             "INE",
@@ -66,7 +70,9 @@
             this.cmbIdentificacionAcceso.Name = "cmbIdentificacionAcceso";
             this.cmbIdentificacionAcceso.Size = new System.Drawing.Size(327, 36);
             this.cmbIdentificacionAcceso.TabIndex = 2;
-            this.cmbIdentificacionAcceso.Text = "Identificacion";
+            this.cmbIdentificacionAcceso.Text = "IDENTIFICACION";
+            this.cmbIdentificacionAcceso.Enter += new System.EventHandler(this.cmbIdentificacionAcceso_Enter);
+            this.cmbIdentificacionAcceso.Leave += new System.EventHandler(this.cmbIdentificacionAcceso_Leave);
             // 
             // btnAcessoEstudiante
             // 
