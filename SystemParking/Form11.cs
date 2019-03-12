@@ -47,6 +47,14 @@ namespace SystemParking
                     MessageBox.Show("Dato No insertado");
                 }
 
+                string query = ("SELECT (400 - COUNT(*)) AS ESPACIOS FROM SALIDA WHERE STATUS = 1;");
+                MySqlCommand mycomand = new MySqlCommand(query, conexion);
+                MySqlDataReader espacios = mycomand.ExecuteReader();
+
+                if (espacios.Read())
+                {
+                    lblExit.Text = espacios["ESPACIOS"].ToString() + " DISPONIBLES";
+                }
 
                 conexion.Close();
             }

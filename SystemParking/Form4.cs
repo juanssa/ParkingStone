@@ -46,5 +46,45 @@ namespace SystemParking
 
             conexion.Close();
         }
+
+        private void txtCodigoAcceso_Enter(object sender, EventArgs e)
+        {
+            if(txtCodigoAcceso.Text == "CODIGO")
+            {
+                txtCodigoAcceso.Text = "";
+
+                txtCodigoAcceso.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtCodigoAcceso_Leave(object sender, EventArgs e)
+        {
+            if (txtCodigoAcceso.Text == "")
+            {
+                txtCodigoAcceso.Text = "CODIGO";
+
+                txtCodigoAcceso.ForeColor = Color.Silver;
+            }
+        }
+
+        private void cmbIdentificacionAcceso_Enter(object sender, EventArgs e)
+        {
+            if( cmbIdentificacionAcceso.Text == "IDENTIFICACION")
+            {
+                cmbIdentificacionAcceso.Text = "";
+
+                cmbIdentificacionAcceso.ForeColor = Color.Black;
+            }
+        }
+
+        private void cmbIdentificacionAcceso_Leave(object sender, EventArgs e)
+        {
+            if (cmbIdentificacionAcceso.Text == "")
+            {
+                cmbIdentificacionAcceso.Text = "IDENTIFICACION";
+
+                cmbIdentificacionAcceso.ForeColor = Color.Silver;
+            }
+        }
     }
 }

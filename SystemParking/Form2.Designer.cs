@@ -57,16 +57,19 @@
             this.vISITORSToolStripMenuItem,
             this.eSTADISTICAToolStripMenuItem,
             this.aYUDAToolStripMenuItem});
+            this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Stretch = false;
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // iNICIOToolStripMenuItem
             // 
+            this.iNICIOToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("iNICIOToolStripMenuItem.Image")));
             this.iNICIOToolStripMenuItem.Name = "iNICIOToolStripMenuItem";
-            this.iNICIOToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.iNICIOToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.iNICIOToolStripMenuItem.Text = "INICIO";
             // 
             // sTUDENTSToolStripMenuItem
@@ -76,8 +79,9 @@
             this.dARACCESSOToolStripMenuItem,
             this.sALIDAToolStripMenuItem,
             this.lISTAESTUDIANTEToolStripMenuItem});
+            this.sTUDENTSToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sTUDENTSToolStripMenuItem.Image")));
             this.sTUDENTSToolStripMenuItem.Name = "sTUDENTSToolStripMenuItem";
-            this.sTUDENTSToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.sTUDENTSToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
             this.sTUDENTSToolStripMenuItem.Text = "STUDENTS";
             this.sTUDENTSToolStripMenuItem.Click += new System.EventHandler(this.sTUDENTSToolStripMenuItem_Click);
             // 
@@ -114,28 +118,30 @@
             this.vISITORSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dARACCESOToolStripMenuItem1,
             this.lISTARVISITARToolStripMenuItem});
+            this.vISITORSToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("vISITORSToolStripMenuItem.Image")));
             this.vISITORSToolStripMenuItem.Name = "vISITORSToolStripMenuItem";
-            this.vISITORSToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.vISITORSToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.vISITORSToolStripMenuItem.Text = "VISITORS";
             // 
             // dARACCESOToolStripMenuItem1
             // 
             this.dARACCESOToolStripMenuItem1.Name = "dARACCESOToolStripMenuItem1";
-            this.dARACCESOToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.dARACCESOToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.dARACCESOToolStripMenuItem1.Text = "DAR ACCESO";
             this.dARACCESOToolStripMenuItem1.Click += new System.EventHandler(this.dARACCESOToolStripMenuItem1_Click);
             // 
             // lISTARVISITARToolStripMenuItem
             // 
             this.lISTARVISITARToolStripMenuItem.Name = "lISTARVISITARToolStripMenuItem";
-            this.lISTARVISITARToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.lISTARVISITARToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lISTARVISITARToolStripMenuItem.Text = "LISTAR VISITAS";
             this.lISTARVISITARToolStripMenuItem.Click += new System.EventHandler(this.lISTARVISITARToolStripMenuItem_Click);
             // 
             // eSTADISTICAToolStripMenuItem
             // 
+            this.eSTADISTICAToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("eSTADISTICAToolStripMenuItem.Image")));
             this.eSTADISTICAToolStripMenuItem.Name = "eSTADISTICAToolStripMenuItem";
-            this.eSTADISTICAToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.eSTADISTICAToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
             this.eSTADISTICAToolStripMenuItem.Text = "ESTADISTICA";
             this.eSTADISTICAToolStripMenuItem.Click += new System.EventHandler(this.eSTADISTICAToolStripMenuItem_Click);
             // 

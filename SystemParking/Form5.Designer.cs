@@ -50,26 +50,35 @@
             // 
             // txtNombreVisitante
             // 
+            this.txtNombreVisitante.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtNombreVisitante.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.txtNombreVisitante.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreVisitante.ForeColor = System.Drawing.Color.Silver;
             this.txtNombreVisitante.Location = new System.Drawing.Point(17, 80);
             this.txtNombreVisitante.Name = "txtNombreVisitante";
             this.txtNombreVisitante.Size = new System.Drawing.Size(308, 36);
             this.txtNombreVisitante.TabIndex = 1;
-            this.txtNombreVisitante.Text = "Nombre Visitante";
+            this.txtNombreVisitante.Text = "NOMBRE VISITANTE";
+            this.txtNombreVisitante.Enter += new System.EventHandler(this.txtNombreVisitante_Enter);
+            this.txtNombreVisitante.Leave += new System.EventHandler(this.txtNombreVisitante_Leave);
             // 
             // txtCompañia
             // 
+            this.txtCompañia.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtCompañia.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCompañia.ForeColor = System.Drawing.Color.Silver;
             this.txtCompañia.Location = new System.Drawing.Point(17, 142);
             this.txtCompañia.Name = "txtCompañia";
             this.txtCompañia.Size = new System.Drawing.Size(308, 36);
             this.txtCompañia.TabIndex = 2;
-            this.txtCompañia.Text = "Compañia";
+            this.txtCompañia.Text = "COMPAÑIA";
+            this.txtCompañia.Enter += new System.EventHandler(this.txtCompañia_Enter);
+            this.txtCompañia.Leave += new System.EventHandler(this.txtCompañia_Leave);
             // 
             // cmbIdentificacionVisitante
             // 
             this.cmbIdentificacionVisitante.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbIdentificacionVisitante.FormattingEnabled = true;
+            this.cmbIdentificacionVisitante.ForeColor = System.Drawing.Color.Silver;
             this.cmbIdentificacionVisitante.Items.AddRange(new object[] {
             "Licencia",
             "INE",
@@ -78,18 +87,25 @@
             "Cedula"});
             this.cmbIdentificacionVisitante.Location = new System.Drawing.Point(17, 203);
             this.cmbIdentificacionVisitante.Name = "cmbIdentificacionVisitante";
-            this.cmbIdentificacionVisitante.Size = new System.Drawing.Size(134, 36);
+            this.cmbIdentificacionVisitante.Size = new System.Drawing.Size(148, 36);
             this.cmbIdentificacionVisitante.TabIndex = 3;
-            this.cmbIdentificacionVisitante.Text = "identificacion";
+            this.cmbIdentificacionVisitante.Text = "IDENTIFICACION";
+            this.cmbIdentificacionVisitante.Enter += new System.EventHandler(this.cmbIdentificacionVisitante_Enter);
+            this.cmbIdentificacionVisitante.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cmbIdentificacionVisitante_KeyPress);
+            this.cmbIdentificacionVisitante.Leave += new System.EventHandler(this.cmbIdentificacionVisitante_Leave);
             // 
             // txtPlacas
             // 
+            this.txtPlacas.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtPlacas.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPlacas.ForeColor = System.Drawing.Color.Silver;
             this.txtPlacas.Location = new System.Drawing.Point(17, 265);
             this.txtPlacas.Name = "txtPlacas";
             this.txtPlacas.Size = new System.Drawing.Size(134, 36);
             this.txtPlacas.TabIndex = 4;
-            this.txtPlacas.Text = "Placas";
+            this.txtPlacas.Text = "PLACAS";
+            this.txtPlacas.Enter += new System.EventHandler(this.txtPlacas_Enter);
+            this.txtPlacas.Leave += new System.EventHandler(this.txtPlacas_Leave);
             // 
             // btnRegistrarVisita
             // 
@@ -100,7 +116,7 @@
             this.btnRegistrarVisita.Name = "btnRegistrarVisita";
             this.btnRegistrarVisita.Size = new System.Drawing.Size(134, 46);
             this.btnRegistrarVisita.TabIndex = 5;
-            this.btnRegistrarVisita.Text = "Registrar";
+            this.btnRegistrarVisita.Text = "REGISTRAR";
             this.btnRegistrarVisita.UseVisualStyleBackColor = false;
             this.btnRegistrarVisita.Click += new System.EventHandler(this.btnRegistrarVisita_Click);
             // 

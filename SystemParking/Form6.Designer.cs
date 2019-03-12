@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvVisitas = new System.Windows.Forms.DataGridView();
             this.txtBuscar_Visita = new System.Windows.Forms.TextBox();
             this.btnBuscarVisita = new System.Windows.Forms.Button();
@@ -36,7 +37,11 @@
             // 
             // dgvVisitas
             // 
+            this.dgvVisitas.AllowUserToDeleteRows = false;
             this.dgvVisitas.AllowUserToResizeColumns = false;
+            this.dgvVisitas.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.dgvVisitas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvVisitas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvVisitas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvVisitas.Location = new System.Drawing.Point(1, 120);
@@ -47,12 +52,17 @@
             // 
             // txtBuscar_Visita
             // 
+            this.txtBuscar_Visita.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtBuscar_Visita.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.txtBuscar_Visita.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscar_Visita.ForeColor = System.Drawing.Color.Silver;
             this.txtBuscar_Visita.Location = new System.Drawing.Point(12, 25);
             this.txtBuscar_Visita.Name = "txtBuscar_Visita";
             this.txtBuscar_Visita.Size = new System.Drawing.Size(657, 36);
             this.txtBuscar_Visita.TabIndex = 2;
-            this.txtBuscar_Visita.Text = "Busca por cualquier atributo";
+            this.txtBuscar_Visita.Text = "BUSCAR VISITANTE\r\n";
+            this.txtBuscar_Visita.Enter += new System.EventHandler(this.txtBuscar_Visita_Enter);
+            this.txtBuscar_Visita.Leave += new System.EventHandler(this.txtBuscar_Visita_Leave);
             // 
             // btnBuscarVisita
             // 

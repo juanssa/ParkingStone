@@ -7,15 +7,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 using MySql.Data.MySqlClient;
 
 namespace SystemParking
 {
     public partial class frmLogin : Form
     {
+
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+         (
+          int nLeftRect,  // x-coordinate of upper-left corner 
+          int nTopRect,  // y-coordinate of upper-left corner 
+          int nRightRect, // x-coordinate of lower-right corner 
+          int nBottomRect, // y-coordinate of lower-right corner 
+          int nWidthEllipse, // height of ellipse 
+          int nHeightEllipse // width of ellipse 
+         );
+
         public frmLogin()
         {
             InitializeComponent();
+
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+           
+          
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 30, 30));
         }
 
         public string usuario;
@@ -79,6 +97,46 @@ namespace SystemParking
 
             
 
+        }
+
+        private void txtUser_Enter(object sender, EventArgs e)
+        {
+            if (txtUser.Text == "usuario")
+            {
+                txtUser.Text = "";
+
+                txtUser.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtUser_Leave(object sender, EventArgs e)
+        {
+            if (txtUser.Text == "")
+            {
+                txtUser.Text = "usuario";
+
+                txtUser.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtPass_Enter(object sender, EventArgs e)
+        {
+            if (txtPass.Text == "********")
+            {
+                txtPass.Text = "";
+
+                txtPass.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtPass_Leave(object sender, EventArgs e)
+        {
+            if (txtPass.Text == "")
+            {
+                txtPass.Text = "********";
+
+                txtPass.ForeColor = Color.Silver;
+            }
         }
     }
 }

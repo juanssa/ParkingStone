@@ -50,7 +50,7 @@ namespace SystemParking
             BDConect objeto = new BDConect();
             MySqlConnection conexion = objeto.Conexion();
 
-            MySqlDataAdapter dgv = new MySqlDataAdapter("Select * from VISITANTE", conexion);
+            MySqlDataAdapter dgv = new MySqlDataAdapter("SELECT * FROM VISITANTE ORDER BY ID DESC", conexion);
             DataSet ds = new DataSet();
             dgv.Fill(ds);
 
@@ -98,7 +98,7 @@ namespace SystemParking
             BDConect objeto = new BDConect();
             MySqlConnection conexion = objeto.Conexion();
 
-            MySqlDataAdapter dgv = new MySqlDataAdapter("Select * from entrada order by hora desc", conexion);
+            MySqlDataAdapter dgv = new MySqlDataAdapter("Select * from entrada order by id desc", conexion);
             DataSet ds = new DataSet();
             dgv.Fill(ds);
 

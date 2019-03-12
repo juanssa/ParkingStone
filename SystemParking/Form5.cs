@@ -38,6 +38,17 @@ namespace SystemParking
             {
                 MessageBox.Show("Dato Insertado");
 
+                /// Restablece los placeholders de los campos de visitante.
+                /// 
+                txtNombreVisitante.Text = "NOMBRE VISITANTE";
+                txtNombreVisitante.ForeColor = Color.Silver;
+                txtCompañia.Text = "COMPAÑIA";
+                txtCompañia.ForeColor = Color.Silver;
+                cmbIdentificacionVisitante.Text = "IDENTIFICACION";
+                cmbIdentificacionVisitante.ForeColor = Color.Silver;
+                txtPlacas.Text = "PLACAS";
+                txtPlacas.ForeColor = Color.Silver;
+
             }
             else
             {
@@ -45,6 +56,91 @@ namespace SystemParking
             }
 
             conexion.Close();
+        }
+
+        private void txtNombreVisitante_Enter(object sender, EventArgs e)
+        {
+            if (txtNombreVisitante.Text == "NOMBRE VISITANTE")
+            {
+                txtNombreVisitante.Text = "";
+
+                txtNombreVisitante.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtNombreVisitante_Leave(object sender, EventArgs e)
+        {
+            if (txtNombreVisitante.Text == "")
+            {
+                txtNombreVisitante.Text = "NOMBRE VISITANTE";
+
+                txtNombreVisitante.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtCompañia_Enter(object sender, EventArgs e)
+        {
+            if (txtCompañia.Text == "COMPAÑIA")
+            {
+                txtCompañia.Text = "";
+
+                txtCompañia.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtCompañia_Leave(object sender, EventArgs e)
+        {
+            if (txtCompañia.Text == "")
+            {
+                txtCompañia.Text = "COMPAÑIA";
+
+                txtCompañia.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtPlacas_Enter(object sender, EventArgs e)
+        {
+            if (txtPlacas.Text == "PLACAS")
+            {
+                txtPlacas.Text = "";
+
+                txtPlacas.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtPlacas_Leave(object sender, EventArgs e)
+        {
+            if (txtPlacas.Text == "")
+            {
+                txtPlacas.Text = "PLACAS";
+
+                txtPlacas.ForeColor = Color.Silver;
+            }
+        }
+
+        private void cmbIdentificacionVisitante_Enter(object sender, EventArgs e)
+        {
+            if(cmbIdentificacionVisitante.Text == "IDENTIFICACION")
+            {
+                cmbIdentificacionVisitante.Text = "";
+
+                cmbIdentificacionVisitante.ForeColor = Color.Black;
+            }
+        }
+
+        private void cmbIdentificacionVisitante_Leave(object sender, EventArgs e)
+        {
+            if (cmbIdentificacionVisitante.Text == "")
+            {
+                cmbIdentificacionVisitante.Text = "IDENTIFICACION";
+
+                cmbIdentificacionVisitante.ForeColor = Color.Silver;
+            }
+        }
+
+        private void cmbIdentificacionVisitante_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }
