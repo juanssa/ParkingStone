@@ -37,6 +37,7 @@
             this.labelDia = new System.Windows.Forms.Label();
             this.graficoSemanal = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.graficoDia = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.graficoSemanal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.graficoDia)).BeginInit();
             this.SuspendLayout();
@@ -44,12 +45,12 @@
             // labelInicio
             // 
             this.labelInicio.AutoSize = true;
-            this.labelInicio.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInicio.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelInicio.Location = new System.Drawing.Point(6, 9);
             this.labelInicio.Name = "labelInicio";
-            this.labelInicio.Size = new System.Drawing.Size(890, 32);
+            this.labelInicio.Size = new System.Drawing.Size(1220, 34);
             this.labelInicio.TabIndex = 2;
-            this.labelInicio.Text = "Se muestra los graficos de la ultima semana y del dia pico apartir de hoy: ";
+            this.labelInicio.Text = "Se muestra los graficos de la ultima semana y del dia pico apartir de hoy:   ";
             // 
             // labelSemana
             // 
@@ -95,11 +96,23 @@
             this.graficoDia.TabIndex = 6;
             this.graficoDia.Text = "chart1";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(5, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(644, 81);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Te recomendamos, para evitar la larga espera de un lugar, no usar\r\ntu coche el di" +
+    "a con mayor incidencia de registros o almenos evitar\r\nel horario pico.";
+            // 
             // frmEstadisticas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1382, 753);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.graficoDia);
             this.Controls.Add(this.graficoSemanal);
             this.Controls.Add(this.labelDia);
@@ -122,5 +135,6 @@
         private System.Windows.Forms.Label labelDia;
         private System.Windows.Forms.DataVisualization.Charting.Chart graficoSemanal;
         private System.Windows.Forms.DataVisualization.Charting.Chart graficoDia;
+        private System.Windows.Forms.Label label1;
     }
 }

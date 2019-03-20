@@ -51,6 +51,7 @@
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.iNICIOToolStripMenuItem,
             this.sTUDENTSToolStripMenuItem,
@@ -60,7 +61,8 @@
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
             this.menuStrip1.Stretch = false;
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
@@ -69,7 +71,7 @@
             // 
             this.iNICIOToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("iNICIOToolStripMenuItem.Image")));
             this.iNICIOToolStripMenuItem.Name = "iNICIOToolStripMenuItem";
-            this.iNICIOToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
+            this.iNICIOToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.iNICIOToolStripMenuItem.Text = "INICIO";
             // 
             // sTUDENTSToolStripMenuItem
@@ -81,35 +83,35 @@
             this.lISTAESTUDIANTEToolStripMenuItem});
             this.sTUDENTSToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sTUDENTSToolStripMenuItem.Image")));
             this.sTUDENTSToolStripMenuItem.Name = "sTUDENTSToolStripMenuItem";
-            this.sTUDENTSToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
+            this.sTUDENTSToolStripMenuItem.Size = new System.Drawing.Size(113, 24);
             this.sTUDENTSToolStripMenuItem.Text = "STUDENTS";
             this.sTUDENTSToolStripMenuItem.Click += new System.EventHandler(this.sTUDENTSToolStripMenuItem_Click);
             // 
             // dARACCESOToolStripMenuItem
             // 
             this.dARACCESOToolStripMenuItem.Name = "dARACCESOToolStripMenuItem";
-            this.dARACCESOToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dARACCESOToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.dARACCESOToolStripMenuItem.Text = "INGRESO ";
             this.dARACCESOToolStripMenuItem.Click += new System.EventHandler(this.dARACCESOToolStripMenuItem_Click);
             // 
             // dARACCESSOToolStripMenuItem
             // 
             this.dARACCESSOToolStripMenuItem.Name = "dARACCESSOToolStripMenuItem";
-            this.dARACCESSOToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dARACCESSOToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.dARACCESSOToolStripMenuItem.Text = "DAR ACCESSO";
             this.dARACCESSOToolStripMenuItem.Click += new System.EventHandler(this.dARACCESSOToolStripMenuItem_Click);
             // 
             // sALIDAToolStripMenuItem
             // 
             this.sALIDAToolStripMenuItem.Name = "sALIDAToolStripMenuItem";
-            this.sALIDAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sALIDAToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.sALIDAToolStripMenuItem.Text = "SALIDA";
             this.sALIDAToolStripMenuItem.Click += new System.EventHandler(this.sALIDAToolStripMenuItem_Click);
             // 
             // lISTAESTUDIANTEToolStripMenuItem
             // 
             this.lISTAESTUDIANTEToolStripMenuItem.Name = "lISTAESTUDIANTEToolStripMenuItem";
-            this.lISTAESTUDIANTEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lISTAESTUDIANTEToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.lISTAESTUDIANTEToolStripMenuItem.Text = "LISTA ESTUDIANTE";
             this.lISTAESTUDIANTEToolStripMenuItem.Click += new System.EventHandler(this.lISTAESTUDIANTEToolStripMenuItem_Click);
             // 
@@ -120,20 +122,20 @@
             this.lISTARVISITARToolStripMenuItem});
             this.vISITORSToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("vISITORSToolStripMenuItem.Image")));
             this.vISITORSToolStripMenuItem.Name = "vISITORSToolStripMenuItem";
-            this.vISITORSToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
+            this.vISITORSToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
             this.vISITORSToolStripMenuItem.Text = "VISITORS";
             // 
             // dARACCESOToolStripMenuItem1
             // 
             this.dARACCESOToolStripMenuItem1.Name = "dARACCESOToolStripMenuItem1";
-            this.dARACCESOToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.dARACCESOToolStripMenuItem1.Size = new System.Drawing.Size(183, 26);
             this.dARACCESOToolStripMenuItem1.Text = "DAR ACCESO";
             this.dARACCESOToolStripMenuItem1.Click += new System.EventHandler(this.dARACCESOToolStripMenuItem1_Click);
             // 
             // lISTARVISITARToolStripMenuItem
             // 
             this.lISTARVISITARToolStripMenuItem.Name = "lISTARVISITARToolStripMenuItem";
-            this.lISTARVISITARToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lISTARVISITARToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.lISTARVISITARToolStripMenuItem.Text = "LISTAR VISITAS";
             this.lISTARVISITARToolStripMenuItem.Click += new System.EventHandler(this.lISTARVISITARToolStripMenuItem_Click);
             // 
@@ -141,22 +143,24 @@
             // 
             this.eSTADISTICAToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("eSTADISTICAToolStripMenuItem.Image")));
             this.eSTADISTICAToolStripMenuItem.Name = "eSTADISTICAToolStripMenuItem";
-            this.eSTADISTICAToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
+            this.eSTADISTICAToolStripMenuItem.Size = new System.Drawing.Size(128, 24);
             this.eSTADISTICAToolStripMenuItem.Text = "ESTADISTICA";
             this.eSTADISTICAToolStripMenuItem.Click += new System.EventHandler(this.eSTADISTICAToolStripMenuItem_Click);
             // 
             // aYUDAToolStripMenuItem
             // 
             this.aYUDAToolStripMenuItem.Name = "aYUDAToolStripMenuItem";
-            this.aYUDAToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
-            this.aYUDAToolStripMenuItem.Text = "AYUDA";
+            this.aYUDAToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
+            this.aYUDAToolStripMenuItem.Text = "AYUDA !";
+            this.aYUDAToolStripMenuItem.Click += new System.EventHandler(this.aYUDAToolStripMenuItem_Click);
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 116);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(35, 143);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(744, 65);
+            this.label1.Size = new System.Drawing.Size(992, 80);
             this.label1.TabIndex = 1;
             this.label1.Text = "Bienvenido al sistema de estacionamiento de estudiantes, esta herramienta permite" +
     " un control de los accesos de estudiantes y visitantes para mejorar el servicio " +
@@ -167,9 +171,10 @@
             this.lblSesion.AutoSize = true;
             this.lblSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSesion.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblSesion.Location = new System.Drawing.Point(600, 51);
+            this.lblSesion.Location = new System.Drawing.Point(800, 63);
+            this.lblSesion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSesion.Name = "lblSesion";
-            this.lblSesion.Size = new System.Drawing.Size(71, 24);
+            this.lblSesion.Size = new System.Drawing.Size(90, 29);
             this.lblSesion.TabIndex = 2;
             this.lblSesion.Text = "STAFF";
             this.lblSesion.Click += new System.EventHandler(this.lblSesion_Click);
@@ -177,23 +182,25 @@
             // ptbCerrarSession
             // 
             this.ptbCerrarSession.Image = ((System.Drawing.Image)(resources.GetObject("ptbCerrarSession.Image")));
-            this.ptbCerrarSession.Location = new System.Drawing.Point(688, 51);
+            this.ptbCerrarSession.Location = new System.Drawing.Point(917, 63);
+            this.ptbCerrarSession.Margin = new System.Windows.Forms.Padding(4);
             this.ptbCerrarSession.Name = "ptbCerrarSession";
-            this.ptbCerrarSession.Size = new System.Drawing.Size(62, 62);
+            this.ptbCerrarSession.Size = new System.Drawing.Size(83, 76);
             this.ptbCerrarSession.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptbCerrarSession.TabIndex = 3;
             this.ptbCerrarSession.TabStop = false;
             // 
             // frmInicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.ptbCerrarSession);
             this.Controls.Add(this.lblSesion);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmInicio";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

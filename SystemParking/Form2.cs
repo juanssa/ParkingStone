@@ -106,5 +106,11 @@ namespace SystemParking
 
             conexion.Close();
         }
+
+        private void aYUDAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormAyuda form = new FormAyuda();
+            form.Show();
+        }
     }
 }

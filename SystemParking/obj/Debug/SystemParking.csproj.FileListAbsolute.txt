@@ -47,3 +47,4 @@ C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingSto
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.csproj.CopyComplete
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.exe
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.pdb
+C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.FormAyuda.resources
