@@ -22,7 +22,7 @@ namespace SystemParking
             port = "3306";
             database = "parking";
             uid = "root";
-            password = "";
+            password = "14789632qQ";
 
             string connectionString;
 

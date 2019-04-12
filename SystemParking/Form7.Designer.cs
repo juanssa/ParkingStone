@@ -45,10 +45,10 @@
             // labelInicio
             // 
             this.labelInicio.AutoSize = true;
-            this.labelInicio.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInicio.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelInicio.Location = new System.Drawing.Point(6, 9);
             this.labelInicio.Name = "labelInicio";
-            this.labelInicio.Size = new System.Drawing.Size(1220, 34);
+            this.labelInicio.Size = new System.Drawing.Size(1021, 29);
             this.labelInicio.TabIndex = 2;
             this.labelInicio.Text = "Se muestra los graficos de la ultima semana y del dia pico apartir de hoy:   ";
             // 

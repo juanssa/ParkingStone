@@ -36,19 +36,21 @@
             // lblSalida
             // 
             this.lblSalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalida.Location = new System.Drawing.Point(235, 26);
+            this.lblSalida.Location = new System.Drawing.Point(313, 32);
+            this.lblSalida.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSalida.Name = "lblSalida";
-            this.lblSalida.Size = new System.Drawing.Size(299, 64);
+            this.lblSalida.Size = new System.Drawing.Size(399, 79);
             this.lblSalida.TabIndex = 2;
             this.lblSalida.Text = "Escanea el Codigo de tu Credencial Para Obtener Salida";
             this.lblSalida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Font = new System.Drawing.Font("Oswald", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.Location = new System.Drawing.Point(239, 152);
+            this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigo.Location = new System.Drawing.Point(319, 187);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(299, 36);
+            this.txtCodigo.Size = new System.Drawing.Size(397, 34);
             this.txtCodigo.TabIndex = 3;
             this.txtCodigo.Text = "Codigo";
             this.txtCodigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -58,23 +60,26 @@
             // 
             this.lblExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExit.ForeColor = System.Drawing.Color.LimeGreen;
-            this.lblExit.Location = new System.Drawing.Point(12, 311);
+            this.lblExit.Location = new System.Drawing.Point(16, 383);
+            this.lblExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblExit.Name = "lblExit";
-            this.lblExit.Size = new System.Drawing.Size(776, 103);
+            this.lblExit.Size = new System.Drawing.Size(1035, 127);
             this.lblExit.TabIndex = 4;
             this.lblExit.Text = "400 Espacios";
             this.lblExit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmSalida
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.lblExit);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.lblSalida);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmSalida";
             this.Text = "SALIDA";
+            this.Load += new System.EventHandler(this.frmSalida_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

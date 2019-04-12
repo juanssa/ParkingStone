@@ -37,28 +37,45 @@ namespace SystemParking
 
                 consulta.CommandText = ("INSERT INTO SALIDA ( codigo, fecha, hora) VALUES ('" + txtCodigo.Text + "', '" + fecha_actual + "', '" + hora + "');");
 
-                if (consulta.ExecuteNonQuery() == 1)
-                {
-                    txtCodigo.Clear();
-                    txtCodigo.Focus();
-                }
-                else
-                {
-                    MessageBox.Show("Dato No insertado");
-                }
-
-                string query = ("SELECT (400 - COUNT(*)) AS ESPACIOS FROM SALIDA WHERE STATUS = 1;");
-                MySqlCommand mycomand = new MySqlCommand(query, conexion);
-                MySqlDataReader espacios = mycomand.ExecuteReader();
-
-                if (espacios.Read())
-                {
-                    lblExit.Text = espacios["ESPACIOS"].ToString() + " DISPONIBLES";
-                }
+                //int a = consulta.ExecuteNonQuery();
 
                 conexion.Close();
+
+                //Actualizar parking junto a salida
+                BDConect objeto2 = new BDConect();
+                MySqlConnection conexion2 = objeto2.Conexion();
+                MySqlCommand consulta2 = new MySqlCommand();
+                consulta2.Connection = conexion2;
+                consulta2.CommandText = ("update parkings set codigo = '' where codigo = '" + txtCodigo.Text.ToString() + "'");
+                int b = consulta2.ExecuteNonQuery();
+                conexion2.Close();
+
+                txtCodigo.Clear();
             }
 
+
+            actualizarContador();
+
+        }
+
+        private void actualizarContador()
+        {
+
+            BDConect objeto = new BDConect();
+            MySqlConnection conexion = objeto.Conexion();
+            MySqlCommand consulta = new MySqlCommand();
+            consulta.Connection = conexion;
+            consulta.CommandText = ("select count(*) from parkings where codigo = ''");
+            int lugares = int.Parse(consulta.ExecuteScalar().ToString());
+            conexion.Close();
+
+            string x = "Espacios disponibles: " + lugares.ToString();
+            lblExit.Text = x;
+        }
+
+        private void frmSalida_Load(object sender, EventArgs e)
+        {
+            actualizarContador();
         }
     }
 }
