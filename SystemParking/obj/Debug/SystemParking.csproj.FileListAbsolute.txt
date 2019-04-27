@@ -30,17 +30,12 @@ C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingSto
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\bin\Debug\MySql.Data.xml
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.csprojAssemblyReference.cache
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmLogin.resources
-C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmListaEmpleados.resources
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmSalida.resources
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmListaAlumnos.resources
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmInicio.resources
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmIngreso.resources
-C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmAccesoEstudiante.resources
-C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmAccesoVisita.resources
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmListaVisitas.resources
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmEstadisticas.resources
-C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmAdmin.resources
-C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.frmAddEmpleado.resources
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.Properties.Resources.resources
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.csproj.GenerateResource.cache
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.csproj.CoreCompileInputs.cache
@@ -48,3 +43,29 @@ C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingSto
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.exe
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.pdb
 C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.FormAyuda.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\bin\Debug\SystemParking.exe.config
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\bin\Debug\SystemParking.exe
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\bin\Debug\SystemParking.pdb
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\bin\Debug\Google.Protobuf.dll
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\bin\Debug\MySql.Data.xml
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.csprojAssemblyReference.cache
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmLogin.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmListaEmpleados.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmSalida.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmListaAlumnos.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmInicio.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmIngreso.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmAccesoEstudiante.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmAccesoVisita.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmListaVisitas.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmEstadisticas.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmAdmin.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.frmAddEmpleado.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.FormAyuda.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.Properties.Resources.resources
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.csproj.GenerateResource.cache
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.csproj.CopyComplete
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.exe
+C:\Users\Fernanda\Documents\School\ParkingStone\SystemParking\obj\Debug\SystemParking.pdb
+C:\Users\abcustoms\OneDrive\Escritorio\Cristian\VisualStudio Proyects\ParkingStone-master\SystemParking\obj\Debug\SystemParking.FormReportes.resources
