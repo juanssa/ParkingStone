@@ -81,6 +81,7 @@ namespace SystemParking
                 MessageBox.Show("User or Pass Incorrectos");
             }
             conexion.Close();
+            this.Close();
         }
 
         private void txtUser_Enter(object sender, EventArgs e)

@@ -46,30 +46,30 @@
             // labelInicio
             // 
             this.labelInicio.AutoSize = true;
-            this.labelInicio.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInicio.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.labelInicio.Location = new System.Drawing.Point(5, 9);
             this.labelInicio.Name = "labelInicio";
-            this.labelInicio.Size = new System.Drawing.Size(1021, 29);
+            this.labelInicio.Size = new System.Drawing.Size(768, 24);
             this.labelInicio.TabIndex = 2;
             this.labelInicio.Text = "Se muestra los graficos de la ultima semana y del dia pico apartir de hoy:   ";
             // 
             // labelSemana
             // 
             this.labelSemana.AutoSize = true;
-            this.labelSemana.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSemana.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
             this.labelSemana.Location = new System.Drawing.Point(12, 142);
             this.labelSemana.Name = "labelSemana";
-            this.labelSemana.Size = new System.Drawing.Size(106, 26);
+            this.labelSemana.Size = new System.Drawing.Size(124, 29);
             this.labelSemana.TabIndex = 3;
             this.labelSemana.Text = "Semana: ";
             // 
             // labelDia
             // 
             this.labelDia.AutoSize = true;
-            this.labelDia.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDia.Location = new System.Drawing.Point(651, 142);
+            this.labelDia.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.labelDia.Location = new System.Drawing.Point(555, 142);
             this.labelDia.Name = "labelDia";
-            this.labelDia.Size = new System.Drawing.Size(62, 26);
+            this.labelDia.Size = new System.Drawing.Size(68, 29);
             this.labelDia.TabIndex = 4;
             this.labelDia.Text = "Dia: ";
             // 
@@ -79,10 +79,10 @@
             this.graficoSemanal.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.graficoSemanal.Legends.Add(legend1);
-            this.graficoSemanal.Location = new System.Drawing.Point(12, 171);
+            this.graficoSemanal.Location = new System.Drawing.Point(17, 170);
             this.graficoSemanal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.graficoSemanal.Name = "graficoSemanal";
-            this.graficoSemanal.Size = new System.Drawing.Size(637, 570);
+            this.graficoSemanal.Size = new System.Drawing.Size(521, 546);
             this.graficoSemanal.TabIndex = 5;
             this.graficoSemanal.Text = "chart1";
             // 
@@ -92,39 +92,39 @@
             this.graficoDia.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.graficoDia.Legends.Add(legend2);
-            this.graficoDia.Location = new System.Drawing.Point(655, 171);
+            this.graficoDia.Location = new System.Drawing.Point(560, 170);
             this.graficoDia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.graficoDia.Name = "graficoDia";
-            this.graficoDia.Size = new System.Drawing.Size(715, 570);
+            this.graficoDia.Size = new System.Drawing.Size(571, 546);
             this.graficoDia.TabIndex = 6;
             this.graficoDia.Text = "chart1";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 37);
+            this.label1.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.label1.Location = new System.Drawing.Point(5, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(644, 81);
+            this.label1.Size = new System.Drawing.Size(599, 72);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Te recomendamos, para evitar la larga espera de un lugar, no usar\r\ntu coche el di" +
-    "a con mayor incidencia de registros o almenos evitar\r\nel horario pico.";
+            this.label1.Text = "Recomendamos, para evitar la larga espera de un lugar, no usar\r\ntu coche el dia c" +
+    "on mayor incidencia de registros o almenos evitar\r\nel horario pico.";
             // 
             // frmEstadisticas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1381, 753);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(1154, 739);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.graficoDia);
             this.Controls.Add(this.graficoSemanal);
             this.Controls.Add(this.labelDia);
             this.Controls.Add(this.labelSemana);
             this.Controls.Add(this.labelInicio);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "frmEstadisticas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

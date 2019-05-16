@@ -48,7 +48,7 @@
             this.Tabla.AllowUserToResizeRows = false;
             this.Tabla.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.Tabla.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.Tabla.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.Tabla.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Tabla.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal;
             this.Tabla.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -70,7 +70,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.Tabla.DefaultCellStyle = dataGridViewCellStyle2;
             this.Tabla.GridColor = System.Drawing.Color.Teal;
-            this.Tabla.Location = new System.Drawing.Point(12, 12);
+            this.Tabla.Location = new System.Drawing.Point(12, 132);
             this.Tabla.Name = "Tabla";
             this.Tabla.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -84,16 +84,16 @@
             this.Tabla.RowTemplate.Height = 24;
             this.Tabla.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.Tabla.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Tabla.Size = new System.Drawing.Size(829, 530);
+            this.Tabla.Size = new System.Drawing.Size(1130, 595);
             this.Tabla.TabIndex = 5000;
             // 
             // btnRefrescar
             // 
-            this.btnRefrescar.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnRefrescar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRefrescar.Location = new System.Drawing.Point(870, 12);
+            this.btnRefrescar.BackColor = System.Drawing.Color.Orange;
+            this.btnRefrescar.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            this.btnRefrescar.Location = new System.Drawing.Point(290, 12);
             this.btnRefrescar.Name = "btnRefrescar";
-            this.btnRefrescar.Size = new System.Drawing.Size(170, 65);
+            this.btnRefrescar.Size = new System.Drawing.Size(207, 97);
             this.btnRefrescar.TabIndex = 1;
             this.btnRefrescar.Text = "REFRESCAR";
             this.btnRefrescar.UseVisualStyleBackColor = false;
@@ -101,11 +101,11 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(870, 103);
+            this.btnEliminar.BackColor = System.Drawing.Color.Orange;
+            this.btnEliminar.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEliminar.Location = new System.Drawing.Point(654, 18);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(170, 65);
+            this.btnEliminar.Size = new System.Drawing.Size(207, 84);
             this.btnEliminar.TabIndex = 2;
             this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = false;
@@ -115,15 +115,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(1154, 739);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnRefrescar);
             this.Controls.Add(this.Tabla);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormReportes";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "Reportes e incidentes en el estacionamiento";
             this.Load += new System.EventHandler(this.FormReportes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Tabla)).EndInit();

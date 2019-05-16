@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 using MySql.Data.MySqlClient;
 
 namespace SystemParking
@@ -16,12 +17,13 @@ namespace SystemParking
         public frmInicio()
         {
             InitializeComponent();
+            abrirFormHija(new FormInicio());
         }
          //Boton de lista de estudiantes en el menu inicial
-        private void MenuBtnEstudiantes_Click(object sender, EventArgs e)
+        private void MenuBtnEntradas_Click(object sender, EventArgs e)
         {
             frmListaAlumnos objetoListaAlumnos = new frmListaAlumnos();
-            objetoListaAlumnos.Show();
+            abrirFormHija(objetoListaAlumnos);
 
             BDConect objeto = new BDConect();
             MySqlConnection conexion = objeto.Conexion();
@@ -38,7 +40,7 @@ namespace SystemParking
         private void MenuBtnVisitantes_Click(object sender, EventArgs e)
         {
             frmListaVisitas objetoListaVisitas = new frmListaVisitas();
-            objetoListaVisitas.Show();
+            abrirFormHija(objetoListaVisitas);
 
 
             BDConect objeto = new BDConect();
@@ -54,61 +56,91 @@ namespace SystemParking
         }
 
 
-        public void lblSesion_Click(object sender, EventArgs e)
-        {
-            frmLogin objetoLogin = new frmLogin();
-
-            //user = objetoLogin.usuario;
-
-            //lblSesion.Text = user;
-            DialogResult res = objetoLogin.ShowDialog();
-
-            if (res == DialogResult.OK)
-            {
-                lblSesion.Text = "Staff";
-                //lblSesion.Text = objetoLogin.usuario.ToString();
-            }
-            lblSesion.Text = "Staff";
-        }
-
         //Boton de graficos
         private void MenuBtnGraficos_Click(object sender, EventArgs e)
         {
-            frmEstadisticas objetoEstadistica = new frmEstadisticas();
-            objetoEstadistica.Show();
+            abrirFormHija(new frmEstadisticas());
         }
 
         //bton para abrir el form de ingreso
         private void MenuBtnIngreso_Click(object sender, EventArgs e)
         {
-            frmIngreso objetoAcceso = new frmIngreso();
-            objetoAcceso.Show();
+            abrirFormHija(new frmIngreso());
         }
 
         //btn para abrir el form de salidas
         private void MenuBtnSalida_Click(object sender, EventArgs e)
         {
-            frmSalida objetoSalida = new frmSalida();
-            objetoSalida.Show();
+            abrirFormHija(new frmSalida());
         }
 
         //btn para abrir el form de ayuda
         private void MenuBtnAyuda_Click(object sender, EventArgs e)
         {
-            FormAyuda form = new FormAyuda();
-            form.Show();
+            abrirFormHija(new FormAyuda());
         }
 
-        private void ptbCerrarSession_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Cerrando sesion. . .", "Exit");
-            this.Close();
-        }
 
         private void MenuBtnReportes_Click(object sender, EventArgs e)
         {
-            FormReportes form = new FormReportes();
-            form.Show();
+            abrirFormHija(new FormReportes());
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.Exit();
+
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        //codigo para mover mi aplicacion
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        //
+
+        private void panelSuperior_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        //
+
+        private void abrirFormHija(object formHija)
+        {
+            if (panelPrincipal.Controls.Count > 0)
+            {
+                panelPrincipal.Controls.RemoveAt(0);
+                Form fh = formHija as Form;
+                fh.TopLevel = false;
+                fh.Dock = DockStyle.Fill;
+                panelPrincipal.Controls.Add(fh);
+                panelPrincipal.Tag = fh;
+                fh.Show();
+            }
+            else
+            {
+                Form fh = formHija as Form;
+                fh.TopLevel = false;
+                fh.Dock = DockStyle.Fill;
+                panelPrincipal.Controls.Add(fh);
+                panelPrincipal.Tag = fh;
+                fh.Show();
+            }
+
+        }
+
+        private void imgInicio_Click(object sender, EventArgs e)
+        {
+            abrirFormHija(new FormInicio());
+        }
+
     }
 }

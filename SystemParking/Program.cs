@@ -16,7 +16,9 @@ namespace SystemParking
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+            frmLogin main = new frmLogin();
+            main.Show();
+            Application.Run();
         }
     }
 }

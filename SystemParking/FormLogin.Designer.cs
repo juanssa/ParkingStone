@@ -79,12 +79,12 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnEntrar.BackColor = System.Drawing.Color.Orange;
             this.btnEntrar.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnEntrar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEntrar.FlatAppearance.BorderSize = 2;
-            this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrar.ForeColor = System.Drawing.Color.White;
+            this.btnEntrar.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.btnEntrar.ForeColor = System.Drawing.Color.Black;
             this.btnEntrar.Location = new System.Drawing.Point(445, 263);
             this.btnEntrar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnEntrar.Name = "btnEntrar";
@@ -97,7 +97,7 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Tahoma", 16F);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(5, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
@@ -146,7 +146,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(800, 338);
             this.Controls.Add(this.ptbUser);
             this.Controls.Add(this.ptbPass);
@@ -163,7 +163,7 @@
             this.Name = "frmLogin";
             this.Padding = new System.Windows.Forms.Padding(1);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Sistema de estacionamientos";
+            this.Text = "Inicio de sesion";
             ((System.ComponentModel.ISupportInitialize)(this.ptbUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbPass)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

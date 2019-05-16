@@ -84,19 +84,19 @@
             // txtCodigo
             // 
             this.txtCodigo.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.Location = new System.Drawing.Point(124, 89);
+            this.txtCodigo.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.txtCodigo.Location = new System.Drawing.Point(47, 93);
             this.txtCodigo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(175, 34);
+            this.txtCodigo.Size = new System.Drawing.Size(175, 32);
             this.txtCodigo.TabIndex = 0;
             this.txtCodigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtCodigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodigo_KeyPress);
             // 
             // lblCodigo
             // 
-            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(121, 53);
+            this.lblCodigo.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.lblCodigo.Location = new System.Drawing.Point(44, 57);
             this.lblCodigo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(179, 32);
@@ -106,9 +106,9 @@
             // 
             // lblEntrada
             // 
-            this.lblEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEntrada.ForeColor = System.Drawing.Color.LimeGreen;
-            this.lblEntrada.Location = new System.Drawing.Point(787, 2);
+            this.lblEntrada.Font = new System.Drawing.Font("Tahoma", 18F);
+            this.lblEntrada.ForeColor = System.Drawing.Color.Black;
+            this.lblEntrada.Location = new System.Drawing.Point(602, 56);
             this.lblEntrada.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEntrada.Name = "lblEntrada";
             this.lblEntrada.Size = new System.Drawing.Size(497, 78);
@@ -122,7 +122,7 @@
             this.parkD1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkD1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkD1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkD1.Location = new System.Drawing.Point(125, 591);
+            this.parkD1.Location = new System.Drawing.Point(47, 605);
             this.parkD1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkD1.Name = "parkD1";
             this.parkD1.Size = new System.Drawing.Size(100, 100);
@@ -137,7 +137,7 @@
             this.parkC1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkC1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkC1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkC1.Location = new System.Drawing.Point(124, 485);
+            this.parkC1.Location = new System.Drawing.Point(46, 499);
             this.parkC1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkC1.Name = "parkC1";
             this.parkC1.Size = new System.Drawing.Size(100, 100);
@@ -152,7 +152,7 @@
             this.parkB1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkB1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkB1.Location = new System.Drawing.Point(124, 322);
+            this.parkB1.Location = new System.Drawing.Point(46, 280);
             this.parkB1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkB1.Name = "parkB1";
             this.parkB1.Size = new System.Drawing.Size(100, 100);
@@ -167,7 +167,7 @@
             this.parkA1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkA1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkA1.Location = new System.Drawing.Point(124, 217);
+            this.parkA1.Location = new System.Drawing.Point(46, 175);
             this.parkA1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkA1.Name = "parkA1";
             this.parkA1.Size = new System.Drawing.Size(100, 100);
@@ -182,7 +182,7 @@
             this.parkA2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkA2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkA2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkA2.Location = new System.Drawing.Point(229, 217);
+            this.parkA2.Location = new System.Drawing.Point(151, 175);
             this.parkA2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkA2.Name = "parkA2";
             this.parkA2.Size = new System.Drawing.Size(100, 100);
@@ -197,7 +197,7 @@
             this.parkB2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkB2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkB2.Location = new System.Drawing.Point(229, 322);
+            this.parkB2.Location = new System.Drawing.Point(151, 280);
             this.parkB2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkB2.Name = "parkB2";
             this.parkB2.Size = new System.Drawing.Size(100, 100);
@@ -212,7 +212,7 @@
             this.parkC2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkC2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkC2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkC2.Location = new System.Drawing.Point(229, 485);
+            this.parkC2.Location = new System.Drawing.Point(151, 499);
             this.parkC2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkC2.Name = "parkC2";
             this.parkC2.Size = new System.Drawing.Size(100, 100);
@@ -227,7 +227,7 @@
             this.parkD2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkD2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkD2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkD2.Location = new System.Drawing.Point(232, 591);
+            this.parkD2.Location = new System.Drawing.Point(154, 605);
             this.parkD2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkD2.Name = "parkD2";
             this.parkD2.Size = new System.Drawing.Size(100, 100);
@@ -242,7 +242,7 @@
             this.parkA4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkA4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkA4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkA4.Location = new System.Drawing.Point(443, 217);
+            this.parkA4.Location = new System.Drawing.Point(365, 175);
             this.parkA4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkA4.Name = "parkA4";
             this.parkA4.Size = new System.Drawing.Size(100, 100);
@@ -257,7 +257,7 @@
             this.parkB4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkB4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkB4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkB4.Location = new System.Drawing.Point(443, 322);
+            this.parkB4.Location = new System.Drawing.Point(365, 280);
             this.parkB4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkB4.Name = "parkB4";
             this.parkB4.Size = new System.Drawing.Size(100, 100);
@@ -272,7 +272,7 @@
             this.parkC4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkC4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkC4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkC4.Location = new System.Drawing.Point(443, 485);
+            this.parkC4.Location = new System.Drawing.Point(365, 499);
             this.parkC4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkC4.Name = "parkC4";
             this.parkC4.Size = new System.Drawing.Size(100, 100);
@@ -287,7 +287,7 @@
             this.parkD4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkD4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkD4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkD4.Location = new System.Drawing.Point(444, 591);
+            this.parkD4.Location = new System.Drawing.Point(366, 605);
             this.parkD4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkD4.Name = "parkD4";
             this.parkD4.Size = new System.Drawing.Size(100, 100);
@@ -302,7 +302,7 @@
             this.parkA3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkA3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkA3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkA3.Location = new System.Drawing.Point(336, 217);
+            this.parkA3.Location = new System.Drawing.Point(258, 175);
             this.parkA3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkA3.Name = "parkA3";
             this.parkA3.Size = new System.Drawing.Size(100, 100);
@@ -317,7 +317,7 @@
             this.parkB3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkB3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkB3.Location = new System.Drawing.Point(336, 322);
+            this.parkB3.Location = new System.Drawing.Point(258, 280);
             this.parkB3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkB3.Name = "parkB3";
             this.parkB3.Size = new System.Drawing.Size(100, 100);
@@ -332,7 +332,7 @@
             this.parkC3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkC3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkC3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkC3.Location = new System.Drawing.Point(336, 485);
+            this.parkC3.Location = new System.Drawing.Point(258, 499);
             this.parkC3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkC3.Name = "parkC3";
             this.parkC3.Size = new System.Drawing.Size(100, 100);
@@ -347,7 +347,7 @@
             this.parkD3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkD3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkD3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkD3.Location = new System.Drawing.Point(339, 591);
+            this.parkD3.Location = new System.Drawing.Point(261, 605);
             this.parkD3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkD3.Name = "parkD3";
             this.parkD3.Size = new System.Drawing.Size(100, 100);
@@ -362,7 +362,7 @@
             this.parkA5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkA5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkA5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkA5.Location = new System.Drawing.Point(548, 217);
+            this.parkA5.Location = new System.Drawing.Point(470, 175);
             this.parkA5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkA5.Name = "parkA5";
             this.parkA5.Size = new System.Drawing.Size(100, 100);
@@ -377,7 +377,7 @@
             this.parkB5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkB5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkB5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkB5.Location = new System.Drawing.Point(548, 322);
+            this.parkB5.Location = new System.Drawing.Point(470, 280);
             this.parkB5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkB5.Name = "parkB5";
             this.parkB5.Size = new System.Drawing.Size(100, 100);
@@ -392,7 +392,7 @@
             this.parkC5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkC5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkC5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkC5.Location = new System.Drawing.Point(548, 485);
+            this.parkC5.Location = new System.Drawing.Point(470, 499);
             this.parkC5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkC5.Name = "parkC5";
             this.parkC5.Size = new System.Drawing.Size(100, 100);
@@ -407,7 +407,7 @@
             this.parkD5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkD5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkD5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkD5.Location = new System.Drawing.Point(549, 591);
+            this.parkD5.Location = new System.Drawing.Point(471, 605);
             this.parkD5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkD5.Name = "parkD5";
             this.parkD5.Size = new System.Drawing.Size(100, 100);
@@ -422,7 +422,7 @@
             this.parkA10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkA10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkA10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkA10.Location = new System.Drawing.Point(1077, 217);
+            this.parkA10.Location = new System.Drawing.Point(999, 175);
             this.parkA10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkA10.Name = "parkA10";
             this.parkA10.Size = new System.Drawing.Size(100, 100);
@@ -437,7 +437,7 @@
             this.parkB10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkB10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkB10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkB10.Location = new System.Drawing.Point(1077, 322);
+            this.parkB10.Location = new System.Drawing.Point(999, 280);
             this.parkB10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkB10.Name = "parkB10";
             this.parkB10.Size = new System.Drawing.Size(100, 100);
@@ -452,7 +452,7 @@
             this.parkC10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkC10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkC10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkC10.Location = new System.Drawing.Point(1077, 485);
+            this.parkC10.Location = new System.Drawing.Point(999, 499);
             this.parkC10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkC10.Name = "parkC10";
             this.parkC10.Size = new System.Drawing.Size(100, 100);
@@ -467,7 +467,7 @@
             this.parkD10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkD10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkD10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkD10.Location = new System.Drawing.Point(1080, 591);
+            this.parkD10.Location = new System.Drawing.Point(1002, 605);
             this.parkD10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkD10.Name = "parkD10";
             this.parkD10.Size = new System.Drawing.Size(100, 100);
@@ -482,7 +482,7 @@
             this.parkA8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkA8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkA8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkA8.Location = new System.Drawing.Point(867, 217);
+            this.parkA8.Location = new System.Drawing.Point(789, 175);
             this.parkA8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkA8.Name = "parkA8";
             this.parkA8.Size = new System.Drawing.Size(100, 100);
@@ -497,7 +497,7 @@
             this.parkB8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkB8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkB8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkB8.Location = new System.Drawing.Point(867, 322);
+            this.parkB8.Location = new System.Drawing.Point(789, 280);
             this.parkB8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkB8.Name = "parkB8";
             this.parkB8.Size = new System.Drawing.Size(100, 100);
@@ -512,7 +512,7 @@
             this.parkC8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkC8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkC8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkC8.Location = new System.Drawing.Point(867, 485);
+            this.parkC8.Location = new System.Drawing.Point(789, 499);
             this.parkC8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkC8.Name = "parkC8";
             this.parkC8.Size = new System.Drawing.Size(100, 100);
@@ -527,7 +527,7 @@
             this.parkD8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkD8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkD8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkD8.Location = new System.Drawing.Point(868, 591);
+            this.parkD8.Location = new System.Drawing.Point(790, 605);
             this.parkD8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkD8.Name = "parkD8";
             this.parkD8.Size = new System.Drawing.Size(100, 100);
@@ -542,7 +542,7 @@
             this.parkA9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkA9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkA9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkA9.Location = new System.Drawing.Point(972, 217);
+            this.parkA9.Location = new System.Drawing.Point(894, 175);
             this.parkA9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkA9.Name = "parkA9";
             this.parkA9.Size = new System.Drawing.Size(100, 100);
@@ -557,7 +557,7 @@
             this.parkB9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkB9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkB9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkB9.Location = new System.Drawing.Point(972, 322);
+            this.parkB9.Location = new System.Drawing.Point(894, 280);
             this.parkB9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkB9.Name = "parkB9";
             this.parkB9.Size = new System.Drawing.Size(100, 100);
@@ -572,7 +572,7 @@
             this.parkC9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkC9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkC9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkC9.Location = new System.Drawing.Point(972, 485);
+            this.parkC9.Location = new System.Drawing.Point(894, 499);
             this.parkC9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkC9.Name = "parkC9";
             this.parkC9.Size = new System.Drawing.Size(100, 100);
@@ -587,7 +587,7 @@
             this.parkD9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkD9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkD9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkD9.Location = new System.Drawing.Point(973, 591);
+            this.parkD9.Location = new System.Drawing.Point(895, 605);
             this.parkD9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkD9.Name = "parkD9";
             this.parkD9.Size = new System.Drawing.Size(100, 100);
@@ -602,7 +602,7 @@
             this.parkA7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkA7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkA7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkA7.Location = new System.Drawing.Point(760, 217);
+            this.parkA7.Location = new System.Drawing.Point(682, 175);
             this.parkA7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkA7.Name = "parkA7";
             this.parkA7.Size = new System.Drawing.Size(100, 100);
@@ -617,7 +617,7 @@
             this.parkB7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkB7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkB7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkB7.Location = new System.Drawing.Point(760, 322);
+            this.parkB7.Location = new System.Drawing.Point(682, 280);
             this.parkB7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkB7.Name = "parkB7";
             this.parkB7.Size = new System.Drawing.Size(100, 100);
@@ -632,7 +632,7 @@
             this.parkC7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkC7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkC7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkC7.Location = new System.Drawing.Point(760, 485);
+            this.parkC7.Location = new System.Drawing.Point(682, 499);
             this.parkC7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkC7.Name = "parkC7";
             this.parkC7.Size = new System.Drawing.Size(100, 100);
@@ -647,7 +647,7 @@
             this.parkD7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkD7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkD7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkD7.Location = new System.Drawing.Point(763, 591);
+            this.parkD7.Location = new System.Drawing.Point(685, 605);
             this.parkD7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkD7.Name = "parkD7";
             this.parkD7.Size = new System.Drawing.Size(100, 100);
@@ -662,7 +662,7 @@
             this.parkA6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkA6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkA6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkA6.Location = new System.Drawing.Point(653, 217);
+            this.parkA6.Location = new System.Drawing.Point(575, 175);
             this.parkA6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkA6.Name = "parkA6";
             this.parkA6.Size = new System.Drawing.Size(100, 100);
@@ -677,7 +677,7 @@
             this.parkB6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkB6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkB6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkB6.Location = new System.Drawing.Point(653, 322);
+            this.parkB6.Location = new System.Drawing.Point(575, 280);
             this.parkB6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkB6.Name = "parkB6";
             this.parkB6.Size = new System.Drawing.Size(100, 100);
@@ -692,7 +692,7 @@
             this.parkC6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkC6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkC6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkC6.Location = new System.Drawing.Point(653, 485);
+            this.parkC6.Location = new System.Drawing.Point(575, 499);
             this.parkC6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkC6.Name = "parkC6";
             this.parkC6.Size = new System.Drawing.Size(100, 100);
@@ -707,7 +707,7 @@
             this.parkD6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parkD6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.parkD6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkD6.Location = new System.Drawing.Point(656, 591);
+            this.parkD6.Location = new System.Drawing.Point(578, 605);
             this.parkD6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parkD6.Name = "parkD6";
             this.parkD6.Size = new System.Drawing.Size(100, 100);
@@ -729,8 +729,8 @@
             // 
             // lblEspacio
             // 
-            this.lblEspacio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEspacio.Location = new System.Drawing.Point(324, 47);
+            this.lblEspacio.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEspacio.Location = new System.Drawing.Point(247, 51);
             this.lblEspacio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEspacio.Name = "lblEspacio";
             this.lblEspacio.Size = new System.Drawing.Size(179, 38);
@@ -741,25 +741,25 @@
             // txtParking
             // 
             this.txtParking.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.txtParking.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtParking.Location = new System.Drawing.Point(327, 89);
+            this.txtParking.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.txtParking.Location = new System.Drawing.Point(250, 93);
             this.txtParking.Margin = new System.Windows.Forms.Padding(4);
             this.txtParking.Name = "txtParking";
             this.txtParking.ReadOnly = true;
-            this.txtParking.Size = new System.Drawing.Size(175, 34);
+            this.txtParking.Size = new System.Drawing.Size(175, 32);
             this.txtParking.TabIndex = 46;
             this.txtParking.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnIngreso
             // 
-            this.btnIngreso.BackColor = System.Drawing.Color.Transparent;
+            this.btnIngreso.BackColor = System.Drawing.Color.Orange;
             this.btnIngreso.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnIngreso.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnIngreso.FlatAppearance.BorderSize = 4;
             this.btnIngreso.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnIngreso.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnIngreso.Font = new System.Drawing.Font("Myanmar Text", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngreso.Location = new System.Drawing.Point(549, 73);
+            this.btnIngreso.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngreso.Location = new System.Drawing.Point(472, 77);
             this.btnIngreso.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnIngreso.Name = "btnIngreso";
             this.btnIngreso.Size = new System.Drawing.Size(183, 52);
@@ -776,8 +776,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1283, 753);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(1154, 739);
             this.Controls.Add(this.btnIngreso);
             this.Controls.Add(this.txtParking);
             this.Controls.Add(this.lblEspacio);
@@ -826,7 +826,7 @@
             this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.txtCodigo);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;

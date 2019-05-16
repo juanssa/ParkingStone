@@ -46,21 +46,21 @@
             // 
             this.dgvEstudiante.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvEstudiante.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEstudiante.Location = new System.Drawing.Point(1, 176);
-            this.dgvEstudiante.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvEstudiante.Location = new System.Drawing.Point(13, 182);
+            this.dgvEstudiante.Margin = new System.Windows.Forms.Padding(4);
             this.dgvEstudiante.Name = "dgvEstudiante";
-            this.dgvEstudiante.Size = new System.Drawing.Size(1063, 377);
+            this.dgvEstudiante.Size = new System.Drawing.Size(1128, 544);
             this.dgvEstudiante.TabIndex = 0;
             // 
             // grbFecha
             // 
             this.grbFecha.Controls.Add(this.dateTimePicker2);
             this.grbFecha.Controls.Add(this.dateTimePicker1);
-            this.grbFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbFecha.Location = new System.Drawing.Point(16, 32);
-            this.grbFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbFecha.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold);
+            this.grbFecha.Location = new System.Drawing.Point(55, 36);
+            this.grbFecha.Margin = new System.Windows.Forms.Padding(4);
             this.grbFecha.Name = "grbFecha";
-            this.grbFecha.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbFecha.Padding = new System.Windows.Forms.Padding(4);
             this.grbFecha.Size = new System.Drawing.Size(353, 123);
             this.grbFecha.TabIndex = 1;
             this.grbFecha.TabStop = false;
@@ -70,29 +70,29 @@
             // 
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker2.Location = new System.Drawing.Point(195, 55);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(127, 29);
+            this.dateTimePicker2.Size = new System.Drawing.Size(127, 28);
             this.dateTimePicker2.TabIndex = 1;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(28, 55);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(127, 29);
+            this.dateTimePicker1.Size = new System.Drawing.Size(127, 28);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dateTimePicker4);
             this.groupBox2.Controls.Add(this.dateTimePicker3);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(441, 32);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.Location = new System.Drawing.Point(480, 36);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(353, 123);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
@@ -102,29 +102,29 @@
             // 
             this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker4.Location = new System.Drawing.Point(199, 55);
-            this.dateTimePicker4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker4.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(127, 29);
+            this.dateTimePicker4.Size = new System.Drawing.Size(127, 28);
             this.dateTimePicker4.TabIndex = 3;
             // 
             // dateTimePicker3
             // 
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker3.Location = new System.Drawing.Point(27, 55);
-            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(127, 29);
+            this.dateTimePicker3.Size = new System.Drawing.Size(127, 28);
             this.dateTimePicker3.TabIndex = 2;
             // 
             // btnListaAlumnos
             // 
-            this.btnListaAlumnos.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnListaAlumnos.BackColor = System.Drawing.Color.Orange;
             this.btnListaAlumnos.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnListaAlumnos.FlatAppearance.BorderSize = 3;
             this.btnListaAlumnos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnListaAlumnos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnListaAlumnos.Location = new System.Drawing.Point(856, 66);
-            this.btnListaAlumnos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnListaAlumnos.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold);
+            this.btnListaAlumnos.Location = new System.Drawing.Point(895, 70);
+            this.btnListaAlumnos.Margin = new System.Windows.Forms.Padding(4);
             this.btnListaAlumnos.Name = "btnListaAlumnos";
             this.btnListaAlumnos.Size = new System.Drawing.Size(177, 46);
             this.btnListaAlumnos.TabIndex = 3;
@@ -135,15 +135,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(1154, 739);
             this.Controls.Add(this.btnListaAlumnos);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.grbFecha);
             this.Controls.Add(this.dgvEstudiante);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "frmListaAlumnos";
             this.Text = "Registros de estudiantes";

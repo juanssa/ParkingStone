@@ -38,22 +38,22 @@
             // 
             // lblSalida
             // 
-            this.lblSalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalida.Location = new System.Drawing.Point(134, 9);
+            this.lblSalida.Font = new System.Drawing.Font("Tahoma", 22F, System.Drawing.FontStyle.Bold);
+            this.lblSalida.Location = new System.Drawing.Point(158, 70);
             this.lblSalida.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSalida.Name = "lblSalida";
-            this.lblSalida.Size = new System.Drawing.Size(399, 143);
+            this.lblSalida.Size = new System.Drawing.Size(856, 143);
             this.lblSalida.TabIndex = 2;
-            this.lblSalida.Text = "Escanea el codigo de la credencial o bien ingresa manualmente el codigo.\r\n";
+            this.lblSalida.Text = "Escanea el codigo de la credencial o\r\n ingresa manualmente el codigo.\r\n";
             this.lblSalida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.Location = new System.Drawing.Point(139, 156);
-            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCodigo.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.txtCodigo.Location = new System.Drawing.Point(311, 289);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(397, 34);
+            this.txtCodigo.Size = new System.Drawing.Size(539, 36);
             this.txtCodigo.TabIndex = 3;
             this.txtCodigo.Text = "Codigo";
             this.txtCodigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -61,9 +61,9 @@
             // 
             // lblExit
             // 
-            this.lblExit.Font = new System.Drawing.Font("Modern No. 20", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExit.ForeColor = System.Drawing.Color.CadetBlue;
-            this.lblExit.Location = new System.Drawing.Point(77, 286);
+            this.lblExit.Font = new System.Drawing.Font("Tahoma", 22F, System.Drawing.FontStyle.Bold);
+            this.lblExit.ForeColor = System.Drawing.Color.Black;
+            this.lblExit.Location = new System.Drawing.Point(315, 396);
             this.lblExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblExit.Name = "lblExit";
             this.lblExit.Size = new System.Drawing.Size(525, 129);
@@ -75,14 +75,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(677, 444);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(1154, 739);
             this.Controls.Add(this.lblExit);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.lblSalida);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "frmSalida";
             this.Text = "Salida de coches";
